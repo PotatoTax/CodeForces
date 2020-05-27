@@ -3,5 +3,6 @@ project(CodeForces)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(CodeForces Complete/4A.cpp Complete/71A.cpp)
 add_executable(71A Complete/71A.cpp)
+add_executable(158A Complete/158A.cpp)
+add_executable(4A Complete/4A.cpp)
