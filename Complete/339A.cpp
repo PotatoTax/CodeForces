@@ -19,8 +19,7 @@ int main() {
 
     string intermediate;
 
-    while(getline(check, intermediate, '+'))
-    {
+    while(getline(check, intermediate, '+')) {
         tokens.push_back(stoi(intermediate));
     }
 
