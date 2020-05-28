@@ -10,11 +10,11 @@ int main() {
     long long n, m, a;
     cin >> n >> m >> a;
 
-    while (n % a != 0) {
-        n++;
+    if (n % a != 0) {
+        n += a - n % a;
     }
-    while (m % a != 0) {
-        m++;
+    if (m % a != 0) {
+        m += a - m % a;
     }
     cout << (n * m) / (a * a);
 }
